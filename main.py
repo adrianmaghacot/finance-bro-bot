@@ -127,5 +127,5 @@ async def scheduled_post():
         await channel.send(message)
 
 # Run the bot using the token stored in secrets
-#bot.run(os.getenv("DISCORD_TOKEN"))
+bot.run(os.getenv("DISCORD_TOKEN"))
 print("DISCORD_TOKEN IS:", os.getenv("DISCORD_TOKEN"))
