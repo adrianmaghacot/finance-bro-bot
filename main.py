@@ -128,3 +128,4 @@ async def scheduled_post():
 
 # Run the bot using the token stored in secrets
 bot.run(os.getenv("DISCORD_TOKEN"))
+print("DISCORD_TOKEN:", os.getenv("DISCORD_TOKEN"))
